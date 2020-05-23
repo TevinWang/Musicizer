@@ -100,7 +100,7 @@
                             <h1>Musicizer</h1>
                             <h1><br>promote <span id="js-rotating">exercise, health, life</span></h1>
                             <p class="p-large">Musicizer is a up and coming mobile app platform to exercise with music at your own tempo.</p>
-                            <a class="btn-solid-lg page-scroll" id="open-popup">NOTIFY ME OF UPDATES</a>
+                            <button class="btn-solid-lg page-scroll" id="open-popup">NOTIFY ME OF UPDATES</button>
                             <!-- <a class="btn-solid-lg page-scroll" href="#your-link"><i class="fab fa-apple"></i>APP STORE</a>
                             <a class="btn-solid-lg page-scroll" href="#your-link"><i class="fab fa-google-play"></i>PLAY STORE</a> -->
                         </div>
@@ -197,13 +197,7 @@
     </div> <!-- end of copyright --> 
     <!-- end of copyright -->
     
-    <script type="text/javascript" src="https://downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
-    <script type="text/javascript">
-    function showMailingPopUp() {
-    window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"079d6624d26c3b95f230fa34f","lid":"9e325c2014","uniqueMethods":true}) })
-    }
-    document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
-    </script>
+    
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
     <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
@@ -214,5 +208,12 @@
     <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
     <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    <script type="text/javascript" src="https://downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <script type="text/javascript">
+    function showMailingPopUp() {
+    window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"079d6624d26c3b95f230fa34f","lid":"9e325c2014","uniqueMethods":true}) })
+    }
+    document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
+    </script>
 </body>
 </html>
