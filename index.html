@@ -212,6 +212,7 @@
     <script type="text/javascript">
     function showMailingPopUp() {
     window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"079d6624d26c3b95f230fa34f","lid":"9e325c2014","uniqueMethods":true}) })
+    document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
     }
     document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
     </script>
