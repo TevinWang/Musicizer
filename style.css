@@ -263,4 +263,16 @@ h1 {
         flex-direction: row;
         color: white;
     }
+    .footer {
+        display: none;
+        position: relative;
+        bottom: 0;
+    }
+}
+
+.footer {
+    text-align: center;
+    font-family: 'Helvetica Neue', 'Roboto';
+    position: absolute;
+    bottom: 15px;
 }
